@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portfolio</title>
+    <link rel="website icon" type="jpg" href="/image/ME1.jpg">
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>NK Nayak</title>
+        <style>
+            @keyframes slideInLeft {
+                0% {
+                    transform: translateX(-100%);
+                }
+                100% {
+                    transform: translateX(0);
+                }
+            }
+            
+            figure {
+                animation-duration: 2s;
+                animation-timing-function: ease-in-out;
+                animation-delay: 0s;
+                animation-iteration-count: 1;
+                animation-name: slideInLeft;
+                background: #666;
+                padding: 40px;
+            }
+            
+            h1 {
+                animation-duration: 2s;
+                animation-timing-function: ease-in-out;
+                animation-delay: 0s;
+                animation-iteration-count: 1;
+                animation-name: slideInLeft;
+                padding: auto;
+            }
+            
+            body {
+                margin: 0;
+                font-family: "Segoe UI", Arial, Helvetica, Sans Serif;
+            }
+            
+            a {
+                text-decoration: none;
+                display: inline-block;
+                margin-right: 10px;
+                color: #fff;
+            }
+            
+            @keyframes example {
+                from {
+                    background-color: red;
+                }
+                to {
+                    background-color: yellow;
+                }
+            }
+            
+            img {
+                border-radius: 20px;
+            }
+            
+            div {
+                margin: 20px;
+                border: auto black;
+                outline: auto white;
+                outline-offset: 15px;
+            }
+            
+            input {
+                writing-mode: horizontal-tb !important;
+                font-style: auto;
+                font-variant-ligatures: auto;
+                font-variant-caps: auto;
+                font-variant-numeric: auto;
+                font-variant-east-asian: auto;
+                font-weight: auto;
+                font-stretch: auto;
+                font-size: auto;
+                font-family: auto;
+                text-rendering: auto;
+                color: fieldtext;
+                letter-spacing: normal;
+                word-spacing: normal;
+                line-height: normal;
+                text-transform: none;
+                text-indent: 0px;
+                text-shadow: none;
+                display: inline-block;
+                text-align: start;
+                appearance: white;
+                -webkit-rtl-ordering: logical;
+                cursor: text;
+                background-color: white;
+                margin: 0em;
+                padding: 1px 14px;
+                border-width: 5px;
+                border-style: inset;
+                border-color: -internal-light-dark(rgb(0, 0, 0), rgb(0, 0, 0));
+                border-image: initial;
+            }
+        </style>
+    </head>
+
+    <body bgcolor="slate-188">
+
+        <br><br>
+        <div>
+            <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+                <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="ME1.jpg" alt="" width="384" height="512">
+                <span class="pt-6 md:p-8 text-center md:text-left space-y-4">
+                    <blockquote>
+                        <p class="text-lg font-medium text-white">
+                            “The world is full of gamer. So don't be the game changer. Be the game creator”
+                        </p>
+                    </blockquote>
+                    <figcaption class="font-medium">
+                        <span class="text-sky-500 dark:text-sky-400 italic">
+                            ~ Nishi Kant Nayak
+                        </span><br>
+                </figcaption>
+                </span>
+            </figure>
+        </div><br>
+        <div>
+            <h1 class="text-center text-white">Contact Me</h1>
+            <figure class=" bg-slate-100 rounded-xl  dark:bg-slate-800">
+                <span class="text-center">
+                    <form action="sql.php" method="post">
+                        <label for="Name" class="text-white">Enter your Name: - </label>
+                            <input type="text" name="Name" id="text" placeholder="Enter Here" class="text-center"><br><br>
+                        <label for="Email" class="text-white">Enter your Email ID: - </label>
+                            <input type="email" name="email" id="email" placeholder="someone@example.com" class="text-center"><br><br>
+                        <label for="Number" class="text-white">Enter your Mobile Number: - </label>
+                            <input type="number" name="Number" id="Number" class="text-center" placeholder="Enter Here"><br><br>
+                            <input type="submit" value="Submit" class="text-white cursor-pointer">
+                     </form>
+                </span>
+            </figure>
+        </div>
+    </body>
+
+    </html>
